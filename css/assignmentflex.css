@@ -1,0 +1,68 @@
+
+
+.card{
+    border: 1px solid lightgray;
+    border-radius: 9px;
+    
+    margin: 10px;
+
+    
+    
+
+}
+
+.card-padding{
+    padding: 12px;
+}
+.w-50{
+    width:360px ;
+}
+
+.card h1{
+    font-weight:normal;
+    font-size:24px ;
+}
+
+.card p{
+    color: gray;
+    font-size: 13px;
+}
+
+.card-img{
+    height:  100px;
+}
+
+.flexbox{
+    display: flex;
+    align-items: center;
+}
+
+.border-top{
+    padding: 12Px;
+    border-top: 1PX solid lightgray ;
+
+
+}
+
+.link{
+    color: #1A73E8;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+    font-weight: normal;
+}
+.user{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 100px;
+}

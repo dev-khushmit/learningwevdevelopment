@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+.test-container{
+    background-color: rgb(38, 38, 38);
+    height: 85vh;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+
+    
+}
+
+.w-60{
+    width: 60%;
+    padding: 50px;
+}
+
+.w-40{
+    width: 40%;
+}
+.p-50{
+    padding: 50px;
+}
+
+.test-title{
+    font-size: 54px;
+    line-height: 80px;
+}
+
+
+.food-card{
+    border: 2px solid lightgrey;
+    color: white;
+    padding: 10px;
+    width: 350px;
+    border-radius: 14px;
+    margin: 12px;
+    transform: rotate(2deg);
+    text-align: center;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+}
+

@@ -1,0 +1,51 @@
+.card{
+    width: 400px;
+    border: 3px solid blueviolet ;
+    border-radius: 12px;
+    padding:12px ;
+    margin: auto;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+@media(max-width:576px){
+    .card-img{
+       
+        height: 80px;
+        width: 80px;
+        
+        border-radius: 50%;
+    }
+
+    .card{
+        width: auto;
+        text-align: center;
+    }
+}
+@media(min-width:576px){
+    .card-img{
+       
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+       
+    }
+
+    .card{
+        
+        border: 3px solid grey;
+        text-align: center;
+    }
+}
+
+
+/*breakpoints
+small:576px -> mobiles
+medium:768px -> not used(tablets)
+large:992px -> laptop
+extra-large:1200px -> px and monitors
+
+*/

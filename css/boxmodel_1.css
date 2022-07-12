@@ -1,0 +1,70 @@
+/* box model , display, overflow*/
+
+
+/*box model
+border -> thikness,style[solid,dotted,dashed],color
+padding -> spacing inside the box
+margin -> spacing outside the box
+*/   
+
+
+/*display
+block -> display block default;
+none -> hide the element;
+inline -> element is covering minimum space;
+inline-block -> element is covering minimum space and dispare
+*/
+
+.text-center{
+    text-align: center;
+    border: 3px solid gray;
+    border-radius: 18px;
+    width: 320px;
+}
+
+.box{
+    border: 5px dashed red;
+    padding: 20px 30px 40px 50px;
+    margin: 30px;
+    border-radius: 30px;
+    width: 360px;
+    
+
+
+}
+
+.bg{
+    background-color: beige;
+}
+
+
+.card{
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    width: 360px;
+    color: red;
+    background-color: yellow;
+    margin: 30px;
+    
+}
+
+.btn{
+    background-color: blue;
+    border-radius: 44px;
+    color: aliceblue;
+    padding: 5px;
+
+}
+
+.card-image{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.flexbox{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}

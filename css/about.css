@@ -1,0 +1,38 @@
+
+.container{
+   
+    margin:0 6px;
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.w-50{
+    width: 50%;
+}
+
+
+.img-fluid{
+    width: 100%;
+}
+
+.title{
+    font-size: 56px;
+    line-height: 74px;
+    font-weight: bolder;
+}
+
+
+.btn{
+    background-color: green;
+    border-radius: 48px;
+    color: white;
+    font-size: 16px;
+   
+    padding: 18px 33px;
+    border: none;
+    
+}
+

@@ -1,0 +1,31 @@
+h2{
+    color: blue;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;;
+    background-color: aliceblue;
+    color: #000;
+    text-decoration:underline;
+    word-spacing: 25px;
+    letter-spacing: 2px;
+}
+
+h1{
+    color: blue;
+    font-weight: 150;
+    font-size: 66px;
+    text-align: centerbv ;
+    font-family: 'Courier New', Courier, monospace;
+    width: 500px;
+
+}
+
+.titleone{
+    color: brown;
+}
+.titletwo{
+    color:red;
+}
+.titlethree{
+    color:chartreuse;
+}
+
